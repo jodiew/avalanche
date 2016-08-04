@@ -1,1 +1,51 @@
 /* Avalanche Project by Jodie Weldon, July 2016*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Layout */
+.container {
+    margin: auto;
+    max-width: 100%;
+    background-color: #72568f;
+}
+
+#head {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+.flex-col {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+}
+.flex-horizontal-center {
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+}
+.flex-spread {
+    justify-content: space-between;;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    /* Desktop */
+    .container {
+        max-width: 75%;
+    }
+    #head {
+        padding: 20px 0px;
+    }
+}
