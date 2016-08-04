@@ -19,6 +19,26 @@
     -moz-align-items: center;
 }
 
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+.purple-white {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #72568f;
+    color: #ffffff;
+}
+
+.white-purple {
+    width: 100%;
+    background-color: #ffffff;
+    color: #72568f;
+}
+
 #head {
     color: #ffffff;
     padding: 20px;
@@ -69,7 +89,7 @@
         align-items: center;
         -webkit-align-items: center;
         -moz-align-items: center;
-        
+
         justify-content: space-between;;
         -moz-justify-content: space-between;
         -webkit-justify-content: space-between;
