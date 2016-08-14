@@ -42,6 +42,8 @@ h3 {
 }
 
 .purple-white {
+    position: relative;
+    height: 100%;
     width: 100%;
     padding: 15% 0;
     background-color: #72568f;
@@ -49,6 +51,8 @@ h3 {
 }
 
 .white-purple {
+    position: relative;
+    height: 100%;
     width: 100%;
     padding: 15% 0;
     background-color: #ffffff;
