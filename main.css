@@ -61,7 +61,10 @@ h3 {
 h2, h3, p {
     padding: 20px 5%;
 }
-
+#contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 #head {
     color: #ffffff;
