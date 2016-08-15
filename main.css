@@ -30,17 +30,25 @@ html, body {
     -moz-align-items: center;
 }
 
-h2 {
+h1 {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
 }
-h3 {
+
+h2 {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
 }
-
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    font-size: 1.5em;
+}
 .purple-white {
     position: relative;
     height: 100%;
@@ -117,6 +125,15 @@ h2, h3, p {
         justify-content: space-between;;
         -moz-justify-content: space-between;
         -webkit-justify-content: space-between;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 2em;
     }
     p {
         font-size: 2em;
