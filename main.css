@@ -29,6 +29,14 @@ html, body {
     -moz-align-items: center;
 }
 
+h1, h2 {
+    font-family: 'Cinzel', serif;
+}
+
+h3, p {
+    font-family: 'Alegreya', serif;
+}
+
 html {
     background: url('lilypic.png') no-repeat center fixed;
     background-size: cover;
@@ -55,7 +63,6 @@ p {
 }
 .purple-white {
     position: relative;
-    height: 100%;
     width: 100%;
     padding: 15% 0;
     background-color: #72568f;
@@ -64,7 +71,6 @@ p {
 
 .white-purple {
     position: relative;
-    height: 100%;
     width: 100%;
     padding: 15% 0;
     color: #72568f;
