@@ -19,7 +19,6 @@ html, body {
 
     margin: auto;
     max-width: 100%;
-    background-color: #72568f;
 
     flex-direction: column;
     -webkit-flex-direction: column;
@@ -28,6 +27,11 @@ html, body {
     align-items: center;
     -webkit-align-items: center;
     -moz-align-items: center;
+}
+
+html {
+    background: url('lilypic.png') no-repeat center fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -63,15 +67,20 @@ p {
     height: 100%;
     width: 100%;
     padding: 15% 0;
-    background-color: #ffffff;
     color: #72568f;
 }
+
 h2, h3, p {
     padding: 20px 5%;
 }
 #contact a {
     text-decoration: none;
     color: #ffffff;
+}
+
+header {
+    background-color: #72568f;
+    width: 100%;
 }
 
 #head {
