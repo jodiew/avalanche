@@ -10,7 +10,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 /* Layout */
 .container {
@@ -63,7 +63,7 @@ p {
 .purple-white {
     position: relative;
     width: 100%;
-    min-height: 100%;
+    min-height: inherit;
     padding: 15% 0;
     background-color: #72568f;
     color: #ffffff;
@@ -72,7 +72,7 @@ p {
 .white-purple {
     position: relative;
     width: 100%;
-    min-height: 100%;
+    min-height: inherit;
     padding: 15% 0;
     color: #72568f;
 }
@@ -86,8 +86,10 @@ h2, h3, p {
 }
 
 header {
+    position: relative;
     background-color: #72568f;
     width: 100%;
+    min-height: inherit;
 }
 
 #head {
