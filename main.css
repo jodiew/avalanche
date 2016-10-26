@@ -67,6 +67,7 @@ p {
     padding: 15% 0;
     background-color: #72568f;
     color: #ffffff;
+    height: 100%;
 }
 
 .white-purple {
@@ -75,6 +76,7 @@ p {
     min-height: inherit;
     padding: 15% 0;
     color: #72568f;
+    height: 100%;
 }
 
 h2, h3, p {
@@ -90,6 +92,7 @@ header {
     background-color: #72568f;
     width: 100%;
     min-height: inherit;
+    height:100%;
 }
 
 #head {
