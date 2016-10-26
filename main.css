@@ -7,6 +7,46 @@
     box-sizing: border-box;
 }
 
+.fill-height-or-more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.fill-height-or-more > div {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -23,13 +63,6 @@ html, body {
     margin: auto;
     max-width: 100%;
 
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-
-    align-items: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
 }
 
 h1, h2, h3, p, a {
@@ -45,6 +78,7 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
+    color: #ffffff;
 }
 
 h2 {
@@ -63,11 +97,9 @@ p {
 .purple-white {
     position: relative;
     width: 100%;
-    min-height: inherit;
     padding: 15% 0;
     background-color: #72568f;
     color: #ffffff;
-    height: 100%;
 }
 
 .white-purple {
@@ -75,25 +107,6 @@ p {
     width: 100%;
     padding: 15% 0;
     color: #72568f;
-    height: 100%;
-}
-#home {
-    min-height: 80%;
-}
-#about {
-    min-height: 140%;
-}
-#meetings {
-    min-height: 110%;
-}
-#start {
-    min-height: 170%;
-}
-#fundraising {
-    min-height: 160%;
-}
-#contact {
-    min-height: 70%;
 }
 
 h2, h3, p {
@@ -108,8 +121,6 @@ header {
     position: relative;
     background-color: #72568f;
     width: 100%;
-    min-height: 100%;
-    height:100%;
 }
 
 #head {
@@ -176,30 +187,8 @@ header {
     p {
         font-size: 2em;
     }
-    header {
-        height:auto;
-        min-height: auto;
-    }
-    #home {
-        min-height: 100%;
-    }
-    #about {
-        min-height: 100%;
-    }
-    #meetings {
-        min-height: 100%;
-    }
-    #start {
-        min-height: 100%;
-    }
-    #fundraising {
-        min-height: 100%;
-    }
 
     h2, h3, p {
         padding: 20px 5%;
-    }
-    #contact {
-        min-height: 100%;
     }
 }
