@@ -68,6 +68,19 @@ html, body {
 h1, h2, h3, p, a {
     font-family: 'Noto Sans', sans-serif;
 }
+.fbbutton {
+    background-color: #ffffff;
+    border: none;
+    color: #72568f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 html {
     background: url('lilypic.png') no-repeat center fixed;
@@ -100,6 +113,7 @@ p {
     padding: 15% 0;
     background-color: #72568f;
     color: #ffffff;
+    align-items: center;
 }
 
 .white-purple {
